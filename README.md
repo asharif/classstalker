@@ -8,6 +8,7 @@ I added two things:
 
 
 Installation:
+
 1.  Dump the contents of bin into the root of maven web project that you typically start using mvn  tomcat:run or eq.
 2.  sh run.sh
 
