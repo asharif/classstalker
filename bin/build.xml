@@ -1,0 +1,14 @@
+<project>
+
+	<path id="classpath">
+		<fileset dir="${user.home}/.m2/repository/" includes="**/*.jar" />
+	</path>
+
+	<target name="compile">
+		
+		<mkdir dir="target/classes/" />
+		<javac srcdir="src/main/java" destdir="target/classes" classpathref="classpath" includeDestClasses="true" debug="on" debuglevel="lines"  />
+		
+	</target>
+
+</project>
